@@ -38,6 +38,9 @@ if (process.env.NODE_ENV === "production") {
 app.use(express.static(path.join(__dirname, '../client', 'public')));
 
 
+
+
+
 // POST method to create a transaction, update account balance, and update balance history
 console.log(process.env.PORT);
 console.log(process.env.DBURL);
