@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.hero {
+  /* background: linear-gradient(135deg, #f3e7e9, #ecc0ef,white,rgb(246, 252, 253),white,rgb(250, 250, 250),white); */
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.8), transparent 30%),
+    radial-gradient(circle at center, rgba(150, 170, 255, 0.8), transparent 30%),
+    linear-gradient(
+      to bottom,
+      rgba(177, 188, 240, 0.5),
+      white 30%,
+      white,
+      white 20%
+    );
+
+  /* radial-gradient(circle at 50% 50%, rgba(99, 102, 241, 0.6), rgba(255, 255, 255, 1)),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.5), white 70%); */
+  padding: 70px 40px 40px 40px;
+  min-height: 50vh;
+  /* max-width: 95vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* margin-left: 2.5vw; */
+}
+/*   
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .navbar .logo img {
+    height: 40px;
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .navbar .nav-links li {
+    list-style: none;
+  }
+  
+  .navbar .nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+  
+  .navbar .login a {
+    text-decoration: none;
+    color: #000;
+  } */
+
+.hero-content {
+  max-width: 800px;
+}
+
+.announcement {
+  color: #6d6d6d;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.announcement a {
+  color: #6366f1;
+  text-decoration: none;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+/* .hero-sub-head {
+    font-size: 40px;
+    font-weight: 700;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  } */
+
+.hero-subtitle {
+  color: #6d6d6d;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.learn-more {
+  color: #6366f1;
+  text-decoration: none;
+  font-size: 16px;
+}

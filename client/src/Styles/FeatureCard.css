@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 95%;
+  padding: 20px;
+  text-align: center;
+  margin-left: 2.5%;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.features {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+#third {
+  display: none;
+}
+/* Large Feature Cards */
+.feature.large {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #cbcbf6e5;
+  text-align: left;
+}
+
+.feature.large.side {
+  background-color: #cbcbf6;
+}
+
+/* Small Cards */
+.small-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.feature.small {
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  text-align: left;
+}
+.feature.second {
+  margin-top: 10px;
+  background-color: #cbcbf6;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+.feature.second.inner {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+#fourthimg {
+  width: 400px;
+}
+
+.feature h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 18px;
+  color: #6c757d;
+  margin-top: 20px;
+}
+
+/* Ensure the images are properly scaled */
+.image-placeholder img,
+.feature img {
+  width: 100%;
+  height: auto; /* Adjusts height based on width */
+  object-fit: cover; /* Prevents distortion or overflow */
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .features {
+    flex-direction: column; /* Stacks the main cards vertically */
+  }
+  #third {
+    display: block;
+  }
+  #fourth {
+    display: none;
+  }
+
+  .feature.large,
+  .feature.small {
+    width: 100%;
+  }
+
+  .small-cards {
+    flex-direction: row; /* Switches to row layout */
+    gap: 10px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column; /* Stacks the main cards vertically */
+  }
+
+  .small-cards {
+    flex-direction: column; /* Small cards stack vertically */
+  }
+
+  .feature img {
+    max-width: 100%; /* Ensures images never overflow */
+    height: auto;
+  }
+}
+
+/* Additional for smaller screens (mobile) */
+@media (max-width: 480px) {
+  .small-cards {
+    flex-direction: column; /* Stacks small cards vertically on smaller screens */
+  }
+
+  .feature.large {
+    margin-bottom: 20px;
+  }
+
+  .feature img {
+    max-width: 100%; /* Makes images scale properly */
+    height: auto;
+  }
+}

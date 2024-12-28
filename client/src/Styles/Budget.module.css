@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  color: #333; /* Adjust color to match your design */
+}
+
+.Acc-info-container {
+  margin-left: 10%;
+}
+.Acc-heading {
+  font-weight: 800;
+  max-width: 70%;
+  margin-top: 0.75rem; /* mt-3 */
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 800; /* font-extrabold */
+  letter-spacing: -0.015em; /* tracking-tight */
+  color: #0f172a;
+}
+.Acc-sub-text {
+  margin-top: 1rem; /* mt-4 */
+  margin-bottom: 1rem; /* mb-4 */
+  max-width: 56rem; /* max-w-4xl */
+  font-size: 1rem; /* text-base */
+  line-height: 1.75; /* leading-7 */
+  color: #334155;
+  max-width: 80%;
+}
+
+.add-acc-button {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #7bf1a4;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  padding: 20px;
+  min-width: 80px;
+}
+
+.mid-sec-account-info-list {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.responsive-button::after {
+  content: "Add Budget"; /* Default text for larger screens */
+}
+
+.add-acc-button::after {
+  content: "Add Budget";
+}
+
+.add-acc-button:hover {
+  background-color: #10c57d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.add-acc-button:active {
+  transform: translateY(-1px);
+}
+
+#logo-acc {
+  font-size: 50px;
+}
+
+.account-list {
+  margin-left: 10%;
+  margin-right: 10%;
+  /* line-height: 1rem; */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 320px;
+  justify-content: center;
+}
+
+.zero-length-acc-msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-acc {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(252, 252, 255, 0.313);
+  /* border: 1px solid; */
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* 
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+  
+} */
+
+.pagination-acc-button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: 1px double;
+
+  border-radius: 15px;
+  background-color: #fdfeff;
+  color: #000000;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.pagination-acc-button::before {
+  content: "";
+  width: 0;
+  height: 3em;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #4df782 0%, #f9f047 100%);
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.pagination-acc-button:hover::before {
+  width: 9em;
+}
+
+.pagination span {
+  font-size: 20px;
+  color: #333;
+}
+
+.account-li {
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 0px 20px 0px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s;
+  padding: 20px;
+}
+.account-li-inner {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+.logo-money {
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+}
+.view-acc-button {
+  border-radius: 20px;
+  /* margin-right: 40px; */
+  padding: 10px 40px 10px 40px;
+  cursor: pointer;
+}
+.eye-logo {
+  margin-right: 10px;
+}
+.view-acc-button::after {
+  /* border-radius: 20px; */
+  /* margin-right: 40px; */
+  content: "view Budget";
+}
+#prev-button {
+}
+#prev-button::after {
+  content: "previous";
+}
+#next-button {
+}
+#next-button::after {
+  content: "next";
+}
+
+/* .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #555;
+  } */
+#inner-span {
+}
+#inner-span::after {
+  content: "Showing ";
+}
+
+.Add-acc-modal {
+  /* display: none; */
+  /* max-width: 350px; */
+  background: #f8f9fd;
+  background: linear-gradient(
+    0deg,
+    rgb(255, 255, 255) 0%,
+    rgb(244, 247, 251) 100%
+  );
+  border-radius: 40px;
+  padding: 10px 20px;
+  border: 5px solid rgb(255, 255, 255);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+  margin: 20px;
+}
+
+.Add-acc-modal-heading {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  color: rgb(16, 137, 211);
+}
+
+.Add-acc-modaL-input-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.Add-acc-modal-input,
+.modal-add-button {
+  /* width: 80%; */
+  background: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+  box-shadow: #cff0ff 0px 10px 10px -5px;
+  border-inline: 2px solid transparent;
+}
+
+.modal-add-button {
+  color: white;
+  /* width: 80%; */
+  background: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+  box-shadow: #cff0ff 0px 10px 10px -5px;
+  font-weight: bold;
+  background: linear-gradient(
+    45deg,
+    rgb(16, 137, 211) 0%,
+    rgb(18, 177, 209) 100%
+  );
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.modal-add-button:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+}
+
+.modal-add-button:active {
+  transform: scale(0.95);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+}
+
+@media (max-width: 768px) {
+  .Acc-info-container,
+  .pagination-acc,
+  .account-list {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .Acc-sub-text {
+    max-width: 100%;
+  }
+
+  .mid-sec-account-info-list {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    gap: 40px;
+    margin-right: 5%;
+  }
+}
+@media (max-width: 651px) {
+  .view-acc-button {
+    padding: 10px 10px 10px 10px;
+  }
+  .view-acc-button::after {
+    content: "view";
+  }
+}
+
+@media (max-width: 588px) {
+  .add-acc-button {
+    font-size: 12px;
+
+    padding: 10px;
+    min-width: 100px;
+  }
+  .mid-sec-account-info-list {
+    gap: 20px;
+  }
+  .view-acc-button {
+    content: "view";
+  }
+
+  .add-acc-button::after {
+    content: "ADD"; /* Shortened text for smaller screens */
+  }
+}
+
+@media (max-width: 540px) {
+  .view-acc-button::after {
+    content: "";
+  }
+  .eye-logo {
+    margin-right: 0px;
+  }
+  .logo-money {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .acc-modal-labels h3 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 458px) {
+  .account-li-inner {
+    gap: 0px;
+  }
+
+  #inner-span::after {
+    content: "";
+  }
+
+  #prev-button::after {
+    content: "<";
+  }
+
+  #next-button::after {
+    content: ">";
+  }
+}
+
+@media (max-width: 450px) {
+  #logo-acc {
+    display: none;
+  }
+  .Add-acc-modal-heading {
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 366px) {
+  .add-acc-button {
+    font-size: 12px;
+
+    padding: 10px;
+    min-width: 60px;
+  }
+
+  .acc-modal-labels h3 {
+    font-size: 16px;
+  }
+  .modal-add-button {
+    font-size: 12px;
+  }
+  .add-acc-button::after {
+    content: "ADD"; /* Shortened text for smaller screens */
+  }
+}
+@media (max-width: 330px) {
+  .add-acc-button {
+    font-size: 20px;
+
+    padding: 10px;
+    min-width: 5 0px;
+  }
+
+  .add-acc-button::after {
+    content: "+"; /* Shortened text for smaller screens */
+  }
+}

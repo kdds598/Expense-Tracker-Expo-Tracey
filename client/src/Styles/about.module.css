@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  color: #333; /* Adjust color to match your design */
+}
+
+.Acc-info-container-1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Acc-info-container-2 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Acc-info-container-3 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Acc-info-container-4 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Acc-heading {
+  font-weight: 800;
+  margin-top: 0.75rem; /* mt-3 */
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 800; /* font-extrabold */
+  letter-spacing: -0.015em; /* tracking-tight */
+  color: #0f172a;
+}
+.Acc-sub-text {
+  margin-top: 1rem; /* mt-4 */
+  margin-bottom: 1rem; /* mb-4 */
+  /* max-width: 60%;             
+    font-size: 1rem;              /* text-base */
+  line-height: 1.75; /* leading-7 */
+  color: #334155;
+  /* align-self: center; */
+}
+.Acc-sub-text-2 {
+  margin-top: 1rem; /* mt-4 */
+  margin-bottom: 1rem; /* mb-4 */
+  font-size: 1rem; /* text-base */
+  line-height: 1.75; /* leading-7 */
+  color: #334155;
+  /* align-self: center; */
+}
+.Acc-sub-text-3 {
+  margin-top: 1rem; /* mt-4 */
+  margin-bottom: 1rem; /* mb-4 */
+  font-size: 1rem; /* text-base */
+  line-height: 1.75; /* leading-7 */
+  color: #334155;
+  align-self: center;
+}
+.intothewild1 {
+  display: flex;
+  gap: 30px;
+  color: #0d66c5;
+  align-items: center;
+}
+.intothewild2 {
+  display: flex;
+  gap: 30px;
+  color: #0d66c5;
+  align-items: center;
+}
+.intothewild3 {
+  display: flex;
+  gap: 30px;
+  color: #0d66c5;
+  align-items: center;
+}
+.intothewild4 {
+  display: flex;
+  gap: 30px;
+  color: #0d66c5;
+  align-items: center;
+}
+
+#linkedinbutton {
+  text-decoration: none;
+  color: blue;
+  padding: 2px 6px;
+  border: solid 1px white;
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
+}
+#linkedinbutton:hover {
+  background-color: #10c57d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+#linkedinbutton:active {
+  transform: translateY(-1px);
+}
+
+@media (max-width: 1200px) {
+  .Acc-info-container-1,
+  .Acc-info-container-2,
+  .Acc-info-container-3,
+  .Acc-info-container-4 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 770px) {
+  .intothewild1,
+  .intothewild3 {
+    flex-direction: column;
+  }
+  .intothewild2,
+  .intothewild4 {
+    flex-direction: column-reverse;
+  }
+  .intothewild3 {
+    align-self: start;
+  }
+}
+@media (max-width: 600px) {
+  .intothewild3 {
+    align-self: center;
+  }
+}
+@media (max-width: 410px) {
+  #img11 {
+    width: 300px;
+    height: 210px;
+  }
+  #img13 {
+    width: 300px;
+    height: 200px;
+  }
+  #img14 {
+    width: 300px;
+    height: 200px;
+  }
+}

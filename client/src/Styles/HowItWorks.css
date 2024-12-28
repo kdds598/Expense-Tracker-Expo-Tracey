@@ -1,0 +1,71 @@
+.how-it-works {
+  text-align: center;
+  padding: 40px 0px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.steps-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+.inner-con-div {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.step {
+  flex: 1 1 calc(45% - 30px); /* Make 2 steps per row */
+  background-color: #f8f9fa;
+  padding: 15px;
+  display: flex;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+.icon-container {
+  /* width: 40px;
+    height: 40px; */
+  /* background-color: #020202;
+    color: white; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center;  */
+  border-radius: 50%;
+  padding-top: 10px;
+  /* font-size: 1.5rem; */
+  /* position: absolute; */
+  /* top: -30px;
+    left: calc(50% - 30px); */
+}
+
+h3 {
+  font-size: 20px;
+  /* margin-top: 40px; Create space for the floating icon */
+  margin-bottom: 5px;
+  color: #333;
+  text-align: start;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+  text-align: left;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .step {
+    flex: 1 1 100%; /* Full width on smaller screens */
+  }
+}

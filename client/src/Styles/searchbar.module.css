@@ -1,0 +1,31 @@
+/* From Uiverse.io by ercnersoy */ 
+.search-input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    width: 50%;
+   }
+   
+   .search-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25)
+   }
+
+   @media (max-width: 800px) {
+
+.search-input{
+    width: 40%;
+}
+
+   }
+   
+   @media (max-width: 447px) {
+
+.search-input{
+    width: 80%;
+}
+
+   }

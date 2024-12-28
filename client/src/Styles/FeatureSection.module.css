@@ -1,0 +1,80 @@
+.component-container {
+  align-items: center;
+  width: 100%;
+}
+
+.header {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.header p {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.main-content {
+  display: flex; /* Enable flexbox layout */
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 30px 100px 100px 100px;
+  padding: 30px;
+}
+
+.section {
+  flex: 1 1 46%;
+  display: flex;
+}
+.section div {
+}
+
+.section p {
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+@media (max-width: 800px) {
+  .main-content {
+    flex-direction: column;
+    margin: 30px 70px 100px 70px;
+  }
+
+  /* .section {
+        flex: 1 1 100%;           /* Each item takes full width */
+  /* margin: 5px 0;            /* Adjust margin for better spacing */
+}
+
+@media (max-width: 600px) {
+  .main-content {
+    flex-direction: column; /* Stack items in a column direction */
+  }
+
+  .section {
+    flex: 1 1 100%; /* Each item takes full width */
+    margin: 5px 0; /* Adjust margin for better spacing */
+  }
+  .header {
+    margin: 50px 50px 10px 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-content {
+    flex-direction: column;
+    padding: 10px;
+    margin: 30px 15px 100px 15px;
+  }
+  .section p {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: 18px;
+  }
+  .header {
+    margin: 50px 20px 10px 20px;
+  }
+}
