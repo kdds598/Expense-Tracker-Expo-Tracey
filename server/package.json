@@ -8,7 +8,9 @@
     "build-client": "cd ../client && npm run build",  
     "install-server": "npm install",                 
     "start-server": "node server.js",
-    "deploy": "npm run install-client && npm run build-client && npm run install-server"  
+    "deploy": "npm run install-client && npm run build-client && npm run install-server"  ,
+    "build": "npm install && npm install --prefix client && npm run build --prefix client",
+    "start": "NODE_ENV=production node server/server.js"
 
   },
   "keywords": [],
