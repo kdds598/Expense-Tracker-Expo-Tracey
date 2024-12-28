@@ -8,7 +8,7 @@
     "build-client": "cd ../client && npm run build",  
     "install-server": "npm install",                 
     "start-server": "node server.js",
-    "deploy": "npm run install-client && npm run build-client && npm run install-server && npm run start-server"  
+    "deploy": "npm run install-client && npm run build-client && npm run install-server"  
 
   },
   "keywords": [],
