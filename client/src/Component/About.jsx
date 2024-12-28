@@ -27,7 +27,7 @@ const About = () => {
           name="keywords"
           content="About Expo-Tracey, Expense Tracker App, Budget Management, Financial Goals, Money Tracking, Expense Management,Account Management"
         />
-        <meta name="author" content="Expo-Tracey Team" />
+        {/* <meta name="author" content="Expo-Tracey Team" /> */}
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href={window.location.href} />
 
