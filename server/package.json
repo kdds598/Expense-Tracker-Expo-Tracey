@@ -4,7 +4,12 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install-client": "cd ../client && npm install", 
+    "build-client": "cd ../client && npm run build",  
+    "install-server": "npm install",                 
+    "start-server": "node server.js",
+    "deploy": "npm run install-client && npm run build-client && npm run install-server && npm run start-server"  
+
   },
   "keywords": [],
   "author": "",
@@ -13,6 +18,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.3",
+    "cloudinary": "^2.5.1",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "dotenv": "^16.4.7",
