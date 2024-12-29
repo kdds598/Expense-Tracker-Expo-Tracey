@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node server/server.js",
-    "vi":" cd client && npm install vite --save-dev && cd..",
-    "build": "npm install && vi && npm install --prefix client && npm run build --prefix client",
+    "build": "npm install && npm install vite --save-dev --prefix client && npm install --prefix client && npm run build --prefix client",
     "start": "node server/server.js"
 
   },
