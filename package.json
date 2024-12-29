@@ -5,9 +5,8 @@
   "type": "module",
   
   "scripts": {
-    "build": "npm install && cd client && npm install --include=dev && npm run build && cd .. && npm install",
-    "start": "node server/server.js",
-    "postinstall": "cd client && npm install && cd .. && npm install"
+    "build": "npm install && npm install --prefix client && npm install Vite --include=dev && npm run build ",
+    "start": "node server/server.js"
   },
   "engines": {
     "node": ">=18"
