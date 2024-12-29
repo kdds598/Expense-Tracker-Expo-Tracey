@@ -12,4 +12,4 @@ Disallow: /budgets/dash/
 Disallow: /userProfile
 
 # Sitemap location
-Sitemap: https://www.example.com/sitemap.xml
+Sitemap: https://expo-tracey.onrender.com/sitemap.xml

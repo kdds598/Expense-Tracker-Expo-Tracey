@@ -3,70 +3,70 @@
   
   <!-- Home Page -->
   <url>
-    <loc>https://www.example.com/</loc>
+    <loc>https://expo-tracey.onrender.com/</loc>
     <lastmod>2024-12-28</lastmod>
     <priority>1.0</priority>
   </url>
 
   <!-- Signup Page -->
   <url>
-    <loc>https://www.example.com/signup</loc>
+    <loc>https://expo-tracey.onrender.com/signup</loc>
     <lastmod>2024-12-28</lastmod>
     <priority>0.8</priority>
   </url>
 
   <!-- Accounts Page (Protected) -->
   <url>
-    <loc>https://www.example.com/accounts</loc>
+    <loc>https://expo-tracey.onrender.com/accounts</loc>
     <lastmod>2024-12-28</lastmod>
     <priority>0.9</priority>
   </url>
 
   <!-- Budgets Page (Protected) -->
   <url>
-    <loc>https://www.example.com/budgets</loc>
+    <loc>https://expo-tracey.onrender.com/budgets</loc>
     <lastmod>2024-12-28</lastmod>
     <priority>0.9</priority>
   </url>
 
   <!-- Account Transaction Page (Dynamic) -->
   <url>
-    <loc>https://www.example.com/accounts/Acc-txns/{accountId}</loc>
+    <loc>https://expo-tracey.onrender.com/{accountId}</loc>
     <lastmod>2024-12-28</lastmod>
     <priority>0.7</priority>
   </url>
 
   <!-- Budget Transaction Page (Dynamic) -->
   <url>
-    <loc>https://www.example.com/budgets/Budget-txns/{budgetId}</loc>
+    <loc>https://expo-tracey.onrender.com/{budgetId}</loc>
     <lastmod>2024-12-28</lastmod>
     <priority>0.7</priority>
   </url>
 
   <!-- Account Dashboard Page (Dynamic, Protected) -->
   <url>
-    <loc>https://www.example.com/accounts/dash/{accountId}</loc>
+    <loc>https://expo-tracey.onrender.com/{accountId}</loc>
     <lastmod>2024-12-28</lastmod>
     <priority>0.8</priority>
   </url>
 
   <!-- Budget Dashboard Page (Dynamic, Protected) -->
   <url>
-    <loc>https://www.example.com/budgets/dash/{budgetId}</loc>
+    <loc>https://expo-tracey.onrender.com/{budgetId}</loc>
     <lastmod>2024-12-28</lastmod>
     <priority>0.8</priority>
   </url>
 
   <!-- About Page -->
   <url>
-    <loc>https://www.example.com/about</loc>
+    <loc>https://expo-tracey.onrender.com/about</loc>
     <lastmod>2024-12-28</lastmod>
     <priority>0.8</priority>
   </url>
 
   <!-- User Profile Page (Protected) -->
   <url>
-    <loc>https://www.example.com/userProfile</loc>
+    <loc>https://expo-tracey.onrender.com/userProfile</loc>
     <lastmod>2024-12-28</lastmod>
     <priority>0.9</priority>
   </url>
