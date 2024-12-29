@@ -1,7 +1,7 @@
 import express from "express";
 import { createAccount } from "../controllers/Account.Controller.js";
 import { User } from "../models/User.model.js";
-import { createTransaction, deleteTransaction } from "../controllers/transaction.Controller.js";
+import { createTransaction, deleteTransaction } from "../controllers/Transaction.Controller.js";
 import { createBudget } from "../controllers/Budget.Controller.js";
 import { createBudgetTransaction, deleteBudgetTransaction } from "../controllers/BudgetTransaction.Controller.js";
 import { deleteAccount } from "../controllers/Account.Controller.js";

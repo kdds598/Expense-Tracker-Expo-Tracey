@@ -8,11 +8,7 @@
   "build-client": "cd /opt/render/project/src/client && npm run build && cd ..",
   "build": "npm run install-client && npm install  && npm run build-client",
   "start": "node server/server.js"
-  },
-  "engines": {
-    "node": ">=18"
   }
-  
   ,
   "keywords": [],
   "author": "",
