@@ -21,21 +21,21 @@ app.use(cors());
 app.use('/api',router);
 
 const __dirname = path.resolve();
-// console.log(__dirname);
+console.log(__dirname);
 
 
 
 
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../client/dist")));
+  app.use(express.static(path.join(__dirname, "/client/dist")));
 
   app.get("*", (req, res) =>
-    res.sendFile(path.resolve(__dirname, "../client", "dist", "index.html"))
+    res.sendFile(path.resolve(__dirname, "client", "dist", "index.html"))
   );
 }
 
-app.use(express.static(path.join(__dirname, '../client', 'public')));
+app.use(express.static(path.join(__dirname, 'client', 'public')));
 
 
 
