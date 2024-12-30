@@ -5,7 +5,7 @@ Expense Tracker Expo-Tracey is a full-stack application built with the MERN stac
 
 The app includes Google authentication via Firebase, a robust backend for handling user transactions, and MongoDB for storing all user-related data. It also allows users to monitor their available balances and track the history of their financial transactions.
 
-# **Live Demo:** 
+### **Live Demo:** 
 You can check out the live version of the project here: [Live Demo](https://expo-tracey.onrender.com/)
 
 
