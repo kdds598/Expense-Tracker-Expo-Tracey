@@ -12,11 +12,11 @@ You can check out the live version of the project here: [Live Demo](https://expo
 
 ## **Tech Stack**
 
-- **MongoDB**: NoSQL database to store all user and transaction data.
+- **MongoDB**: NoSQL database to store all the required data.
 - **Express.js**: Backend framework to handle routing and API requests.
 - **React.js**: Frontend library to create dynamic user interfaces.
 - **Node.js**: Server environment to run the backend.
-- **Firebase Authentication**: Used for secure Google-based user authentication.
+- **Firebase Authentication**: Used for secure user authentication.
 - **Chart.js**: Used to render financial charts (transaction history, budget, and balance graphs).
 - **Vite**: Fast build tool and development server for the frontend.
 
