@@ -27,7 +27,7 @@ const Footer = () => {
           <div id={styles.contactus1}>
             <h2>Connect with us</h2>
             <div>
-              <h3 style={{ color: "white" }}>mail : expo.tracey@gmail.com</h3>
+              <h3 style={{ color: "white" }}>mail : expto.tracey@gmail.com</h3>
 
               <h4
                 style={{

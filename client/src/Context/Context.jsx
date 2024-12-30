@@ -20,6 +20,7 @@ export const AuthProvider = ({ children }) => {
         user.getIdToken()
           .then((token) => {
             setIdToken(token); 
+            
           })
           .catch((err) => {
             console.error("Error fetching ID token:", err);
