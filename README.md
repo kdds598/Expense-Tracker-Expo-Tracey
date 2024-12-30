@@ -65,7 +65,7 @@ EMAIL=your_email
 PASSWORD=generated_app_password
 NODE_ENV=production
 
-// Firebase Service Account Variables
+// Firebase secret key Variables
 type=
 project_id=
 private_key_id=
