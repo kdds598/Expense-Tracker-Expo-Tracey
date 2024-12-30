@@ -40,7 +40,7 @@ Follow these steps to set up the **Expense Tracker Expo-Tracey** project locally
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/expo-tracey.git
+git clone https://github.com/kdds598/expo-tracey.git
 cd expo-tracey
 ```
 
