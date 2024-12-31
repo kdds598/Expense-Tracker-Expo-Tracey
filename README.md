@@ -1,7 +1,7 @@
 # Expo-Tracey: Expense Tracker
 
 ## **Project Description**
-Expense Tracker Expo-Tracey is a full-stack application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) that allows users to manage their finances effectively. The app enables users to track their expenses, incomes, set budgets, and visualize their financial progress over time with dynamic graphs and charts. 
+Expense Tracker Expo-Tracey is a full-stack application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) with Redux that allows users to manage their finances effectively. The app enables users to track their expenses, incomes, set budgets, and visualize their financial progress over time with dynamic graphs and charts. 
 
 The app includes Google authentication via Firebase, a robust backend for handling user transactions, and MongoDB for storing all user-related data. It also allows users to monitor their available balances and track the history of their financial transactions.
 
