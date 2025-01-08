@@ -1,13 +1,13 @@
 import mongoose from "mongoose";
 
+
+
 const accountSchema = new mongoose.Schema({
     userObjectId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
     uid:{type: String, required: true},
-
     accountName: { type: String, required: true },
     availableBalance: { type: Number, default: 0,required:true },
     AccountTransactions: [{ type: mongoose.Schema.Types.ObjectId, ref: 'AccountTransaction' }],
-   
       balanceHistory: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'AccountBalanceHistory', // Reference to the BalanceHistory model

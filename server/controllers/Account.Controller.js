@@ -17,7 +17,6 @@ export const createAccount = async (req, res) => {
   }
 
 const falsyVars = getFalsyVarNames({ uid, accountName, availableBalance });
-    console.log(falsyVars);
     
   
     availableBalance = parseInt(availableBalance);

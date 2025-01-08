@@ -32,6 +32,7 @@ if (process.env.NODE_ENV === "production") {
 
   app.get("*", (req, res) =>
     res.sendFile(path.resolve(__dirname, "client", "dist", "index.html"))
+  
   );
 }
 
@@ -53,46 +54,3 @@ mongoose.connect(process.env.DBURL)
 app.listen(PORT, () => {
   console.log("Server is running on port 3000");
 });
-
-
-
-
-
-
-
-
-
-
-
-////////////////////////////////////// auth /////////////////////////////////////////////////////////////
-// async function verifyToken(req, res, next) {
-//   const idToken = req.headers.authorization;
-
-//   if (!idToken) {
-//     return res.status(401).send("Unauthorized");
-//   }
-
-//   try {
-//     const decodedToken = await admin.auth().verifyIdToken(idToken);
-//     req.user = decodedToken;
-//     next();
-//   } catch (error) {
-//     return res.status(401).send("Unauthorized");
-//   }
-// }
-
-// app.post("/api/protected", verifyToken, async (req, res) => {
-//   const { uid, name, email, picture } = req.user;
-
-//   let user = await User.findOne({ uid });
-
-//   if (!user) {
-//     user = new User({ uid, name, email, picture });
-//     await user.save();
-//   }
-
-//   res.send(user);
-// });
-
-
-////////////////////////////////////////////////////////////

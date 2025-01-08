@@ -4,10 +4,9 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-  "install-client": "npm install --prefix client --production=false",
-  "build-client": "cd /opt/render/project/src/client && npm run build && cd ..",
-  "build": "npm run install-client && npm install  && npm run build-client",
-  "start": "node server/server.js"
+  "build": "npm install && npm install --prefix client --production=false && npm run build --prefix client",
+  "start": "node server/server.js",
+  "dev":"node server/server.js"
   }
   ,
   "keywords": [],

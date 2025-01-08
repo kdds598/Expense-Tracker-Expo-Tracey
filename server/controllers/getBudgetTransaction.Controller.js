@@ -30,8 +30,7 @@ export const getBudgetTransaction = async (req, res) => {
 
     // Define valid sort fields and their default orders
     const validSortFields = ['createdAt', 'updatedAt', 'amount', 'category', 'date','note'];
-    const validSortOrder = ['asc', 'desc'];
-
+  
     // Validate sortField and sortOrder
     const sortBy = validSortFields.includes(sortField) ? sortField : 'createdAt'; // Default to 'createdAt'
     const order = validSortOrder.includes(sortOrder?.toLowerCase())
